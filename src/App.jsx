@@ -1,8 +1,10 @@
-import { Post } from './Post';
 import { Header } from './components/Header';
+import { Post } from './Post';
+import { Sidebar } from './components/Sidebar';
 
 import styles from './App.module.css';
 import './global.css';
+
 
 export function App() {
 
@@ -11,10 +13,8 @@ export function App() {
       <Header />
 
       <div className={styles.wrapper}>
-        <aside>
-          Sidebar
-        </aside>
-
+        <Sidebar />
+        
         <main>
           <Post 
            author="Aleff Soares"
@@ -25,6 +25,7 @@ export function App() {
             content="Lorem ipsum dolor sit amet, consectetur adipisicing elit."
           />
         </main>
+
       </div>
     </div>  
   );
