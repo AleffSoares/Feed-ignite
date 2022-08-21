@@ -20,9 +20,13 @@ export function Post() {
 
                <p>Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no Ignite, evento da Rocketseat. O nome do projeto é Feed 🚀</p> 
 
-               <p>👉 <a href="">github.com/AleffSoares</a></p> 
+               <p><a href="">github.com/AleffSoares</a></p> 
 
-               <p><a href="">#novoprojeto #ignite #rocketseat</a></p> 
+               <p>
+                  <a href="">#novoprojeto </a> {' '}
+                  <a href="">#ignite</a> {' '}
+                  <a href="">#rocketseat</a> 
+               </p> 
           </div>
       </article>
   );
